@@ -45,3 +45,14 @@ Successful Response:
     "expirationTime": 86400000
 }
 ```
+
+Failed Response (Incorrect Password)
+```http
+{
+    "message": "Invalid username or password",
+    "status": 401
+}
+```
+
+
+
