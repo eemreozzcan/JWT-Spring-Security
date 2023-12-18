@@ -33,3 +33,15 @@ Content-Type: application/json
   "password": "5ZTpDby+"
 }
 ```
+
+This request performs user authentication. In the case of successful authentication, you receive a JSON Web Token (JWT) with HTTP status 200 (OK).
+
+Successful Response:
+
+```http
+
+{
+    "jwt": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib3p0dXJrQGV4YW1wbGUuY29tIiwiaWF0IjoxNzAyOTMyMzQxLCJleHAiOjE3MDI5MzQxNDF9.z0l66kR4o6SMjQzyvgFzEyYISVJ2kMwSqJRj5RNCEUQ",
+    "expirationTime": 86400000
+}
+```
