@@ -16,3 +16,6 @@ Content-Type: application/json
   "password": "5ZTpDby+",
   "phone": "+1234567890"
 }
+
+
+This request creates a new user registration. If successfully saved, it returns the created user information with HTTP status 201 (Created).
