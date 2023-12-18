@@ -20,3 +20,16 @@ Content-Type: application/json
 This request creates a new user registration. If successfully saved, it returns the created user information with HTTP status 201 (Created).
 
 
+### 2. User Authentication (Sign In)
+
+**Request:**
+
+```http
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "email": "bozturk@example.com",
+  "password": "5ZTpDby+"
+}
+```
